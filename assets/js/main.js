@@ -4,50 +4,20 @@ const reviews = [
           id: 0,
           name: 'Sam Matteson',
           star: '★★★★★',
-          location: 'from Google Reviews',
+          loc: 'from Google Reviews',
           img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
           text: 'Dylan and Phil have dug multiple electrical trenches for me. Being a self employed contractor I am always looking to team up with other top of the line contractors. These guys will do you right. I wouldn’t hesitate to call them and will continue to use them for my projects.',
   
       },  
       {
         id: 1,
-        name: 'Sam Matssssssteson',
-        star: '★★★★★',
-        location: 'from Googlesssssss Reviews',
+        name: 'Example Review',
+        star: '★★★',
+        loc: 'from Example Location',
         img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
-        text: 'Dylan and Phil have dug multiple electrical trenches for me. Being a self employed contractor I am always looking to team up with other top of the line contractors. These guys will do you right. I wouldn’t hesitate to call them and will continue to use them for my projects.',
+        text: 'Example',
 
         },  
-    // {
-    //       id: 1,
-    //       name: '',
-    //       star: '',
-    //       img: '',
-    //       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eveniet nemo, at quibusdam facere laboriosam error a animi voluptatem placeat?',
-  
-    //   },
-    //   {
-    //       id: 2,
-    //       name: '',
-    //       star: '',
-    //       img: '',
-    //       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eveniet nemo, at quibusdam facere laboriosam error a animi voluptatem placeat?',
-  
-    //   },
-    //   {
-    //       id: 3,
-    //       name: '',
-    //       star: '',
-    //       img: '',
-    //       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eveniet nemo, at quibusdam facere laboriosam error a animi voluptatem placeat?',
-    //   },
-    //   {
-    //       id: 4,
-    //       name: '',
-    //       star: '',
-    //       img: '',
-    //       text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eveniet nemo, at quibusdam facere laboriosam error a animi voluptatem placeat?',
-    //   },
   ];
   
   // select items
@@ -56,7 +26,7 @@ const reviews = [
   const author = document.getElementById('author');
   const star = document.getElementById('star');
   const info = document.getElementById('info');
-  const location = document.getElementById('location');
+  const loc = document.getElementById('loc');
   
   
   const prevBtn = document.querySelector('.prev-btn');
@@ -80,7 +50,7 @@ const reviews = [
       author.textContent = item.name;
       star.textContent = item.star;
       info.textContent = item.text;
-      location.textContent = item.location;
+      loc.textContent = item.loc;
   }
   
   // show next person 
