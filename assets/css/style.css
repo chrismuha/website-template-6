@@ -1024,3 +1024,25 @@ border: 2px solid rgb(90, 152, 238);
   background-color: rgb(90, 152, 238);
   font-size: 12.5px;
 } 
+#loc {
+  margin-bottom: 1rem;
+}
+.write-a-review {
+  padding: 0.5rem 2rem;
+  min-width: 12rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border: rgb(19, 141, 255) solid 2px;
+  color: rgb(19, 141, 255);
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: 0.2s;
+}
+.write-a-review:hover {
+  background: rgb(0, 132, 255);
+  color: white;
+}
+.black-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
