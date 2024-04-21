@@ -57,8 +57,8 @@ nav{
   }
   nav ul li a{
     text-align: center;
-    color: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.274);
+    color: #ffffff;
+    background: #ffffff46;
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 500;
@@ -70,10 +70,10 @@ nav{
   
   nav ul li a:hover{
     color: #fff;
-    background: rgb(19, 141, 255);
+    background: #F3A20D;
   }
   nav .menu-btn i{
-    color: rgb(19, 141, 255);
+    color: #F3A20D;
     font-size: 2rem;
     cursor: pointer;
     display: none;
@@ -84,7 +84,7 @@ nav{
   
   .navimg i {
     visibility: hidden;
-    color: rgb(19, 141, 255);
+    color: #F3A20D;
   }
   @media (max-width: 1017px) {
     nav .menu-btn i{
@@ -99,7 +99,7 @@ nav{
       position: fixed;
       top: 10vh;
       left: -100%;
-      background: rgba(77, 8, 204, 0.979);
+      background: #F3A20D;
       height: 100vh;
       width: 100%;
       text-align: left;
@@ -121,7 +121,7 @@ nav{
       border-radius: 0.3rem;
     }
     nav ul li:last-child {
-        background: linear-gradient(rgb(183, 0, 255), rgb(78, 29, 255));
+        background: linear-gradient(#F3A20D, #F3A20D);
     }
     nav ul li a{
       width: 100%;
@@ -136,24 +136,24 @@ nav{
     }
   
     nav ul li:hover a{
-      color: rgb(119, 183, 243);
+      color: #77b7f3;
       background-color: transparent;
     }
   
     .call-link {
       background: transparent !important;
-      color:rgb(255, 253, 253) !important;
+      color:#fffdfd !important;
     }
   }
 
   
   .call-link {
-    color: rgb(250, 250, 250);
-    background: linear-gradient(rgb(151, 138, 224), rgb(60, 57, 233));
+    color: #fafafa;
+    background: linear-gradient(#F3A20D, #F3A20D);
     transition: 0.2s all ease-in;
   }
   .call-link:hover {
-    background:linear-gradient(rgb(151, 138, 224), rgb(60, 57, 233)) ;
+    background:linear-gradient(#F3A20D, #F3A20D) ;
     opacity: 70%;
   }
 
@@ -178,11 +178,11 @@ nav{
     margin-top: 1rem;
   }
   .footer-sectionlinks b {
-    color: rgb(0, 132, 255);
+    color: #F3A20D;
   }
   .footer-sectionlinks a {
     text-decoration: none;
-    color: rgb(231, 231, 231);
+    color: #e7e7e7;
   }
   .footer-sectionlinks a:hover {
     text-decoration: underline;
@@ -213,7 +213,7 @@ nav{
   }
   .footer-bottomlinks .footer-sociallinks i {
     font-size: 2rem;
-    color: rgb(20, 138, 248);
+    color: #F3A20D;
   }
   @media screen and (max-width: 450px) {
     .footer-sectionlinks a {
@@ -333,7 +333,7 @@ main {
 .collab-section h1 b {
   font-size: 4rem;
   font-family: 'Bebas Neue';
-  color: #2191ec;
+  color: #F3A20D;
   letter-spacing: 0.1rem;
 }
 .collab-section span {
@@ -355,14 +355,14 @@ main {
   min-width: 12rem;
   text-align: center;
   font-size: 0.9rem;
-  border: rgb(19, 141, 255) solid 2px;
-  color: rgb(19, 141, 255);
+  border: #F3A20D solid 2px;
+  color: #F3A20D;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
 }
 .collab-section a:hover {
-  background: rgb(0, 132, 255);
+  background: #F3A20D;
   color: white;
 }
 
@@ -413,7 +413,7 @@ main {
 }
 .grid .card {
   border-radius: 15px;
-  box-shadow: -2px 4px 15px rgba(0, 0, 0, 0.26);
+  box-shadow: -2px 4px 15px #00000042;
 }
 @media screen and (max-width: 470px) {
   .grid .card {
@@ -481,7 +481,7 @@ main {
   position: absolute;
   top: 25px;
   left: min(2vmax, 1.563rem);
-  color: #ff7b29;
+  color: #F3A20D;
   background: #fff;
   border-radius: 50px;
   padding: 2px 8px 2px 6px;
@@ -499,13 +499,13 @@ main {
   }
 }
 .grid .card .card__img span svg {
-  fill: #ff7b29;
+  fill: #F3A20D;
   width: 20px;
   margin-right: 2px;
 }
 .recent-work-header {
   font-size: 3rem;
-  color: #2191ec;
+  color: #F3A20D;
   margin: auto;
   width: fit-content;
 }
@@ -525,7 +525,7 @@ main {
   margin-top: 25px;
   margin-left: 110px;
   margin-bottom: 45px;
-  border-bottom: 5px solid rgb(90, 152, 238) ;
+  border-bottom: 5px solid #F3A20D ;
   padding-bottom: 10px;
   letter-spacing: 3px;
 }
@@ -536,7 +536,7 @@ main {
   height: 450px;
   background-color: white;
   border-radius: 7px;
-  box-shadow: 0px 0px 5px  0px rgb(189, 189, 190);
+  box-shadow: 0px 0px 5px  0px #bdbdbe;
   
 }
 
@@ -548,7 +548,7 @@ main {
  margin-top: 15px;
  margin-bottom: 12px;
  z-index: 2;
- box-shadow: 5px -5px rgb(90, 152, 238);
+ box-shadow: 5px -5px #F3A20D;
 }
 #author {
   text-transform: capitalize;
@@ -556,7 +556,7 @@ main {
 }
 #star {
   font-size: 13px;
-  color: rgb(90, 152, 238);
+  color: gold;
   margin-top: 5px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -581,44 +581,44 @@ main {
 .prev-btn {
   background-color: white;
   border-style: none;
-  color: rgb(90, 152, 238);
+  color: #5a98ee;
   font-size: 18px;
 }
 .prev-btn:hover {
   cursor: pointer;
-  color: rgb(30, 120, 247);
+  color: #1e78f7;
 
   
 }
 .next-btn {
   background-color: white;
   border-style: none;
-  color: rgb(90, 152, 238);
+  color: #5a98ee;
   font-size: 18px;
 }
 .next-btn:hover {
   cursor: pointer;
-  color: rgb(30, 120, 247);
+  color: #1e78f7;
  
 }
 
 .random-btn {
  
-background-color: rgb(232, 237, 246);
-color: rgb(90, 152, 238);
+background-color: #e8edf6;
+color: #5a98ee;
 font-size: 12px;
 width: 80px;
 height: 20px;
 border-radius: 5px;
-border: 2px solid rgb(90, 152, 238);
+border: 2px solid #5a98ee;
 
 
 }
 .random-btn:hover {
   cursor: pointer;
   color: black;
-  border: 2px solid rgb(30, 120, 247);
-  background-color: rgb(90, 152, 238);
+  border: 2px solid #1e78f7;
+  background-color: #5a98ee;
   font-size: 12.5px;
 } 
 #loc {
@@ -629,14 +629,14 @@ border: 2px solid rgb(90, 152, 238);
   min-width: 12rem;
   text-align: center;
   font-size: 0.9rem;
-  border: rgb(19, 141, 255) solid 2px;
-  color: rgb(19, 141, 255);
+  border: #138dff solid 2px;
+  color: #138dff;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
 }
 .write-a-review:hover {
-  background: rgb(0, 132, 255);
+  background: #0084ff;
   color: white;
 }
 .black-button:hover {
