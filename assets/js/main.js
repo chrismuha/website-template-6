@@ -5,24 +5,24 @@ const reviews = [
           name: 'Sam Matteson',
           star: '★★★★★',
           loc: 'from Google Reviews',
-          img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
+        //   img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
           text: 'Dylan and Phil have dug multiple electrical trenches for me. Being a self employed contractor I am always looking to team up with other top of the line contractors. These guys will do you right. I wouldn’t hesitate to call them and will continue to use them for my projects.',
   
       },  
       {
         id: 1,
-        name: 'Example Review',
-        star: '★★★',
-        loc: 'from Example Location',
-        img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
-        text: 'Example',
+        name: 'Kristy Bikowsky',
+        star: '★★★★★',
+        loc: 'from Google Reviews',
+        // img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
+        text: 'Excellent work, honest people, hard workers gets the job done!',
 
         },  
   ];
   
   // select items
   
-  const img = document.getElementById('person-img');
+//   const img = document.getElementById('person-img');
   const author = document.getElementById('author');
   const star = document.getElementById('star');
   const info = document.getElementById('info');
@@ -46,7 +46,7 @@ const reviews = [
   
   function showPerson() {
       const item =  reviews[currentItem];
-      img.src = item.img;
+    //   img.src = item.img;
       author.textContent = item.name;
       star.textContent = item.star;
       info.textContent = item.text;
