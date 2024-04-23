@@ -387,11 +387,17 @@ main {
   box-shadow: -2px 4px 15px #00000042;
 }
 .image-grid img {
-  width: 325px;
+  width: 250px;
   display: block;
-  height: 325px;
+  height: 250px;
   object-fit: cover;
   border-radius: 15px;
+}
+@media screen and (max-width: 575px) {
+  .image-grid img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .image-grid h2 {
