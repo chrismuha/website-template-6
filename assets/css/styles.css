@@ -242,9 +242,9 @@ nav{
     width: 100%;
     height: 85vh;
     background-image: url(https://cdn.discordapp.com/attachments/1194008565355139204/1230933920984600767/facebook_1713533477548_7187080319015694192.jpg?ex=66351f8c&is=6622aa8c&hm=4b04c9b03f97412d185753394d3496bfa21bfc9ad0066f9d97f18aaacee81d32&);
-    background-size: 100%;
-    background-attachment:fixed;
-    background-position: 100% -100px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     align-items: center;
