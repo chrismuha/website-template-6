@@ -97,7 +97,7 @@ nav{
     }
     nav ul{
       position: fixed;
-      top: 10vh;
+      top: 9vh;
       left: -100%;
       background: #F3A20D;
       height: 100vh;
