@@ -1,3 +1,10 @@
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+})
+
+
 //Add reviews here
 const reviews = [
     {
@@ -79,3 +86,4 @@ const reviews = [
       console.log(currentItem);
       showPerson();
   });
+
