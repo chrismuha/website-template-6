@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* Default/Primary */
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +27,11 @@ main {
   font-family: 'bebas neue';
 }
 
+main {
+  overflow-x: hidden !important;
+}
+
+/* Navbar/Menu */
 nav{
     position: absolute;
     display: flex;
@@ -157,7 +163,7 @@ nav{
     opacity: 70%;
   }
 
-
+/* Footer */
   footer {
     position: relative;
     background: #0e0e0e;
@@ -237,7 +243,7 @@ nav{
     font-size: 2rem;
   }
 
-  /* Index */
+  /* Header/Cover Photo */
   header {
     width: 100%;
     height: 85vh;
@@ -259,6 +265,11 @@ nav{
   header h1 {
     font-size: 4rem;
     font-family: 'archivo black';
+  }
+  @media screen and (max-width: 500px) {
+    .header-content h1 {
+      font-size: 2.3rem;
+    }
   }
   header p {
     font-size: 1.5rem;
@@ -299,7 +310,7 @@ nav{
       width: 100%;
     }
     header h1 {
-      font-size: 3rem !important;
+      font-size: 3rem;
       text-align: center;
       width: 100%;
     }
@@ -311,11 +322,8 @@ nav{
   }
 
 
-/*collab-section*/
-main {
-  overflow-x: hidden !important;
-}
-.collab-section {
+/*custom-section*/
+.custom-section {
   width: 70%;
   margin: 5vh auto;
 
@@ -323,21 +331,21 @@ main {
   /* background-size:contain; */
   /* animation: scroll 350s linear infinite; */
 }
-.collab-section h1 {
+.custom-section h1 {
   text-align: center;
 }
-.collab-section h1 b {
+.custom-section h1 b {
   font-size: 4rem;
   font-family: 'Bebas Neue';
   color: #F3A20D;
   letter-spacing: 0.1rem;
 }
-.collab-section span {
+.custom-section span {
   font-size: 1.2rem;
   line-height: 3rem;
   font-family: 'Montserrat';
 }
-.collab-section .collab-links {
+.custom-section .custom-links {
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -346,11 +354,11 @@ main {
   justify-content: center;
 }
 @media screen and (min-width: 700px) {
-  .collab-section .collab-links {
+  .custom-section .custom-links {
     width: 30rem;
   }
 }
-.collab-section a {
+.custom-section a {
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
@@ -361,11 +369,23 @@ main {
   border-radius: 0.3rem;
   transition: 0.2s;
 }
-.collab-section a:hover {
+.custom-section a:hover {
   background: #F3A20D;
   color: white;
 }
+.black-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
 
+
+/* Image Grid/Recent Work */
+.recent-work-header {
+  font-size: 3rem;
+  color: #F3A20D;
+  margin: auto;
+  width: fit-content;
+}
 .image-grid {
   width: min(90%, 100rem);
   margin: 0 auto;
@@ -519,13 +539,8 @@ main {
   width: 20px;
   margin-right: 2px;
 } */
-.recent-work-header {
-  font-size: 3rem;
-  color: #F3A20D;
-  margin: auto;
-  width: fit-content;
-}
 
+/* Review Section */
 .container {
   height: 500px;
   width: 100%;
@@ -656,8 +671,4 @@ border: 2px solid #5a98ee;
 .write-a-review:hover {
   background: #0084ff;
   color: white;
-}
-.black-button:hover {
-  background-color: black !important;
-  color: white !important;
 }
