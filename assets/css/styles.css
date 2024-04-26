@@ -74,6 +74,7 @@ nav{
   }
   .brand img {
     height: 5rem;
+    margin-top: -1.5rem; /*only for current logo*/
   }
   .brand a {
     font-size: 2rem;
