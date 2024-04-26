@@ -72,9 +72,14 @@ nav{
     flex-wrap: wrap;
     z-index: 2;
   }
+  .brand {
+    display: flex;
+    align-items: center;
+  }
   .brand img {
-    height: 5.5rem;
-    margin-top: -1rem;
+    height: 5rem;
+    margin-left: 1rem;
+    /* margin-top: -1rem; */
   }
   .brand a {
     font-size: 2rem;
@@ -82,6 +87,14 @@ nav{
     text-decoration: none; text-align:center;
     font-family: 'Bebas Neue';
     padding: 0 1rem;
+  }
+  @media screen and (max-width: 468px) {
+    .brand img {
+      height: 3.5rem;
+    }
+    .brand a {
+      font-size: 1.5rem;
+    }
   }
   nav ul{
     display: flex;
