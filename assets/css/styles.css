@@ -212,7 +212,7 @@ nav{
   footer {
     position: relative;
     background: #0e0e0e;
-    padding: 2rem 5rem;
+    padding: 2rem 3rem;
     border-radius: 0rem;
   }
   .footer-toplinks {
@@ -376,19 +376,20 @@ nav{
   /* background-size:contain; */
   /* animation: scroll 350s linear infinite; */
 }
-.custom-section h1 {
-  text-align: center;
-}
-.custom-section h1 b {
+.bodytext-header {
   font-size: 4rem;
   font-family: 'Bebas Neue';
   color: #F3A20D;
   letter-spacing: 0.1rem;
+  text-align: center !important;
 }
 .custom-section span {
   font-size: 1.2rem;
   line-height: 3rem;
   font-family: 'Montserrat';
+}
+.custom-section h1 {
+  text-align: left;
 }
 .custom-section .custom-links {
   margin: 2rem auto;
