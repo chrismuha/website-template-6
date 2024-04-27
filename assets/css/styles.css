@@ -408,12 +408,15 @@ nav{
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  font-size: 0.9rem;
   border: #F3A20D solid 2px;
   color: #F3A20D;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .custom-section a:hover {
   background: #F3A20D;
@@ -609,15 +612,29 @@ nav{
 }
 
 .review {
-  max-width: 400px;
-  margin: 1rem;
+  margin: 1rem 0.3rem;
   height: 300px;
+  width: 400px;
   padding: 1rem 0;
   background-color: white;
   border-radius: 7px;
   box-shadow: 0px 0px 5px  0px #bdbdbe;
 }
-
+@media screen and (max-width: 480px) {
+  .review {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .review {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .review {
+    max-width: 250px;
+  }
+}
 /* #person-img {
   position: relative;
  width: 150px;
@@ -713,6 +730,10 @@ border: 2px solid #5a98ee;
   border-radius: 0.3rem;
   transition: 0.2s;
   font-style: italic;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .write-a-review:hover {
   background: #F3A20D;
@@ -722,4 +743,8 @@ border: 2px solid #5a98ee;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.horizontal-flex-container {
+  display: flex;
+  align-items: center;
 }
