@@ -744,6 +744,14 @@ border: 2px solid #5a98ee;
   margin-left: auto;
   margin-right: auto;
 }
+
+.body-about {
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Bebas Neue"
+}
+
 .horizontal-flex-container {
   display: flex;
   align-items: center;
