@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Default/Primary */
 * {
@@ -745,11 +746,86 @@ border: 2px solid #5a98ee;
   margin-right: auto;
 }
 
-.body-about {
+.header2 {
+  width: 100%;
+  height: 85vh;
+  /* background-image: url(https://cdn.discordapp.com/attachments/1194008565355139204/1230933920984600767/facebook_1713533477548_7187080319015694192.jpg?ex=66351f8c&is=6622aa8c&hm=4b04c9b03f97412d185753394d3496bfa21bfc9ad0066f9d97f18aaacee81d32&);
+  background-size:cover
+  background-position: center;
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* animation: scroll 350s linear infinite; */
+  margin: 0;
+}
+.header2-content {
+  text-align: left;
+  color: black;
   display: auto;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Bebas Neue"
+  font-family: "Open Sans";
+  font-size: 16pt;
+  font-weight: 700
+}
+.header2-h1 {
+  text-align: center;
+  font-size: 24pt;
+  color: #F3A20D
+}
+@media screen and (max-width: 500px) {
+  .header2-content h1 {
+    font-size: 2.3rem;
+  }
+}
+.header2-links {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.header2-links a {
+  color: #F3A20D;
+  background-color: black;
+  outline: #F3A20D solid 2px;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* .header2-links a:hover {
+  color: #F3A20D;
+  background-color: black;
+  outline: #F3A20D solid 2px;
+} */
+@media screen and (max-width: 700px) {
+  .header2 {
+    height: 100vh;
+    padding: 0 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header2-content {
+    width: 100%;
+  }
+  .header2 h1 {
+    font-size: 24pt;
+    text-align: center;
+    width: 100%;
+  }
+  .header2 p {
+    font-size: 1rem !important;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .horizontal-flex-container {
