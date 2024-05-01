@@ -89,6 +89,17 @@ nav{
     font-family: 'Bebas Neue';
     padding: 0 1rem;
   }
+
+  .call-link {
+    color: #fafafa;
+    background: linear-gradient(#F3A20D, #F3A20D);
+    transition: 0.2s all ease-in;
+  }
+  .call-link:hover {
+    /* background:linear-gradient(#F3A20D, #F3A20D) ; */
+    background-color: #000000;
+    /* opacity: 70%; */
+  }
   @media screen and (max-width: 468px) {
     .brand img {
       height: 3.5rem;
@@ -122,7 +133,7 @@ nav{
   
   nav ul li a:hover{
     color: #fff;
-    background: #F3A20D;
+    background: black;
   }
   nav .menu-btn i{
     color: #F3A20D;
@@ -195,19 +206,18 @@ nav{
     .call-link {
       background: transparent !important;
       color:#fffdfd !important;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      margin-left: -100%;
+      width: 100%;
+      display: block;
+    }
+    #click:checked ~ .call-link{
+      margin-left: 0px;
     }
   }
 
   
-  .call-link {
-    color: #fafafa;
-    background: linear-gradient(#F3A20D, #F3A20D);
-    transition: 0.2s all ease-in;
-  }
-  .call-link:hover {
-    background:linear-gradient(#F3A20D, #F3A20D) ;
-    opacity: 70%;
-  }
+
 
 /* Footer */
   footer {
@@ -422,6 +432,11 @@ nav{
 .custom-section a:hover {
   background: #F3A20D;
   color: white;
+}
+.black-button {
+  border: black solid 2px !important; 
+  color: black !important; 
+  text-transform:uppercase !important;
 }
 .black-button:hover {
   background-color: black !important;
@@ -747,18 +762,8 @@ border: 2px solid #5a98ee;
 }
 
 .header2 {
-  width: 100%;
-  height: 85vh;
-  /* background-image: url(https://cdn.discordapp.com/attachments/1194008565355139204/1230933920984600767/facebook_1713533477548_7187080319015694192.jpg?ex=66351f8c&is=6622aa8c&hm=4b04c9b03f97412d185753394d3496bfa21bfc9ad0066f9d97f18aaacee81d32&);
-  background-size:cover
-  background-position: center;
-  background-repeat: no-repeat; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  /* animation: scroll 350s linear infinite; */
-  margin: 0;
+  margin: 5vh auto;
+  width: 70%;
 }
 .header2-content {
   text-align: left;
@@ -768,7 +773,7 @@ border: 2px solid #5a98ee;
   margin-right: auto;
   font-family: "Open Sans";
   font-size: 16pt;
-  font-weight: 700
+  font-weight: 700;
 }
 .header2-h1 {
   text-align: center;
@@ -781,11 +786,13 @@ border: 2px solid #5a98ee;
   }
 }
 .header2-links {
-  padding: 2rem;
+  padding: 2rem 0;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  align-items: center;
 }
 .header2-links a {
   color: #F3A20D;
@@ -799,6 +806,8 @@ border: 2px solid #5a98ee;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 700;
+  width: fit-content;
+  text-align: center;
 }
 /* .header2-links a:hover {
   color: #F3A20D;
@@ -808,10 +817,6 @@ border: 2px solid #5a98ee;
 @media screen and (max-width: 700px) {
   .header2 {
     height: 100vh;
-    padding: 0 5%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .header2-content {
     width: 100%;
