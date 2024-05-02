@@ -324,7 +324,7 @@ nav{
   }
   @media screen and (max-width: 500px) {
     .header-content h1 {
-      font-size: 2.3rem;
+      font-size: 2.1rem;
     }
   }
   header p {
@@ -377,6 +377,13 @@ nav{
     }
   }
 
+/* logo above header */
+
+.logo-above-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
 
 /*custom-section*/
 .custom-section {
@@ -442,7 +449,14 @@ nav{
   background-color: black !important;
   color: white !important;
 }
-
+@media screen and (max-width: 521px) {
+  .custom-section h1 {
+    font-size: 2.3rem;
+  }
+  .custom-section {
+    width: 80%;
+  }
+}
 
 /* Image Grid/Recent Work */
 .recent-work-header {
@@ -780,11 +794,6 @@ border: 2px solid #5a98ee;
   font-size: 24pt;
   color: #F3A20D
 }
-@media screen and (max-width: 500px) {
-  .header2-content h1 {
-    font-size: 2.3rem;
-  }
-}
 .header2-links {
   padding: 2rem 0;
   display: flex;
@@ -822,7 +831,7 @@ border: 2px solid #5a98ee;
     width: 100%;
   }
   .header2 h1 {
-    font-size: 24pt;
+    font-size: 21pt;
     text-align: center;
     width: 100%;
   }
