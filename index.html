@@ -1,223 +1,848 @@
-<!doctype html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-<head>
+/* Default/Primary */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes" />
-    
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
+body {
+    overflow-x: hidden !important;
+    font-family: 'Poppins';
+}
 
-    <title>Bikowsky Excavation LLC</title>
-    <meta name="description"
-    content="We are a fully insured construction company that specializes in Land Clearing, Ponds, Erosion Control, Custom Land Designs, Foundations, Utilities, Driveways, Retaining Walls, and Septic Systems.">
+html {
+    scroll-behavior: smooth;
+}
 
-    <!-- STYLE SHEETS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    
-    <!-- ICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="apple-touch-startup-image" href="assets/img/white-banner.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/icons/site.webmanifest">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    
-</head>
+main {
+  padding-top: 0vh;
+  min-height: 27.2vh;
+  font-family: 'bebas neue';
+}
 
-<body>
-    <div id="preloader">
-        <img src="assets/logo/new-logo-final.png" alt="Loading logo">
-    </div>
-    <nav class="navbar" style="background-color: #F3A20D; position: relative;">
-        <div class="brand">
-            <img src="assets/logo/new-logo-final.png" alt="Logo">
-            <a href="index.html">Bikowsky Excavation LLC</a>
-        </div>
-        <div>
-            <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-            </label>
-            <ul>
-               <li><a href="index.html" class="fa fa-house" style="text-transform:uppercase"> Home </i></a></li>
-               <li><a href="contact.html"><i class="fa fa-user" style="text-transform:uppercase"> Contact </i></a></li>
-               <li><a href="about.html"><i class="fa fa-user" style="text-transform:uppercase"> About </i></a></li>
-               <li><a href="tel:3152691630" class="call-link" target="_blank"><i class="fa fa-phone" style="text-transform:uppercase"> Call Us: 315-269-1630 </i></a></li>
-            </ul>
-        </div>
-      </nav>
+main {
+  overflow-x: hidden !important;
+}
 
-      <main>
 
-        <header>
-            <div class="header-content" style="text-transform:uppercase">
-                <h1>Construction You Can Count On.</h1>
-                <div class="links" style="text-transform:uppercase">
-                    <a href="">Book Appointment</a>
-                    <a href="tel:3152691630" target="_blank">Call 315-269-1630 for a free quote!</a>
-                </div>
-                </div>
-            </div>
-        </header>
+/* loading screen */
+#preloader {
+  background: #fff no-repeat center center;
+  z-index: 11100;
+  width: 100%;
+  height: 100%;
+  background-size: 200%;
+  position: fixed;
+  margin: 0 auto;
+}
+  
+#preloader img {
+  width: 300.01pt;
+  height: 300.01pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+@media screen and (max-width: 550px) {
+  #preloader img {
+  width: 216.01pt;
+  height: 216.01pt;
+  }
+}
 
-            <section class="cards">
-                <div class="custom-section" style="text-transform:uppercase">
-                    <div class="logo-above-header">
-                        <img src="assets/logo/new-logo-final-cropped.jpg" width="250" height="250">
-                    </div>
-                    <h1 class="bodytext-header"><b> Work With Precision</b> <br></h1>
-                    <h1><span>We are a fully insured construction company that specializes in Land Clearing, Ponds, Erosion Control, Custom Land Designs, Foundations, Utilities, Driveways, Retaining Walls, and Septic Systems.</span></h1>
-                    <div class="custom-links" style="text-transform:uppercase">
-                        <a href="contact.html">Contact</a>
-                        <a href="">Book Appointment</a>
-                        <a href="tel:3152691630" target="_blank" class="black-button">Call 315-269-1630 for a free quote!</a>
-                    </div>
-                </div>
-                <h1 class="recent-work-header">Recent Work</h1>
-                <div class="image-grid">
-                <div class="grid">
-                <div class="card__img">  
-                <img src="assets/pictures/1.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/2.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/3.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/4.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/5.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/6.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/7.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/8.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/9.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/10.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/11.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/12.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/13.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/14.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/15.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/16.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/17.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/18.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/19.jpg">
-                </div>
-                <div class="card__img">  
-                <img src="assets/pictures/20.jpg">
-                </div>
-                </div>
-            </div>
-             </section>
-        </div>
+/* Navbar/Menu */
+nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    /* background: white; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw 0 0;
+    flex-wrap: wrap;
+    z-index: 2;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  .brand img {
+    height: 5rem;
+    margin-left: 1rem;
+    /* margin-top: -1rem; */
+  }
+  .brand a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none; text-align:center;
+    font-family: 'Bebas Neue';
+    padding: 0 1rem;
+  }
 
-        <section class="container">
-            <div class="title">
-                <h2>Our Reviews</h2> <!-- THIS NEEDS TO HAVE A STYLE= TO FORCE CAPITAIZATION -->
-            </div>
-            <div class="horizontal-flex-container">
-                <div class="button-container">
-                    <button class="prev-btn">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                </div>
-                <article class="review">
-                    <!-- <div class="img-container">
-                        <img src="" alt="person-1" id="person-img"> 
-                    </div> -->
-                   
-                    <h4 id="author"></h4>
-                    <p id="star"> </p>
-                    <p id="info">
-                    </p>
-    
-                    <!-- <div class="button-container">
-                        <button class="prev-btn">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="next-btn">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div> -->
-                    
-                    <p id="loc"></p>
-                    <a href="https://www.google.com/search?q=dc+excavation&sca_esv=e659fce3bc92ad7c&rlz=1C5CHFA_enUS932US932&ei=sFkkZp3kO8is5NoP3NuT8AE&ved=0ahUKEwid_NLMgtKFAxVIFlkFHdztBB4Q4dUDCBE&uact=5&oq=dc+excavation&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWRjIGV4Y2F2YXRpb24yERAuGIAEGJECGMcBGIoFGK8BMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIgEC4YgAQYkQIYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQFIvgdQwgNYwgNwAngBkAEAmAF4oAF4qgEDMC4xuAEDyAEA-AEBmAIDoAKHAcICChAAGLADGNYEGEeYAwCIBgGQBgW6BgYIARABGBSSBwMyLjGgB90I&sclient=gws-wiz-serp#" target="_blank" class="write-a-review">Write a Review </a>
-                </article>
-                <div class="button-container">
-                    <button class="next-btn">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-            
-        </section>
+  .call-link {
+    color: #fafafa;
+    background: linear-gradient(#F3A20D, #F3A20D);
+    transition: 0.2s all ease-in;
+  }
+  .call-link:hover {
+    /* background:linear-gradient(#F3A20D, #F3A20D) ; */
+    background-color: #000000;
+    /* opacity: 70%; */
+  }
+  @media screen and (max-width: 468px) {
+    .brand img {
+      height: 3.5rem;
+    }
+    .brand a {
+      font-size: 1.5rem;
+    }
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  nav ul li a{
+    text-align: center;
+    color: #ffffff;
+    background: #ffffff46;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover{
+    color: #fff;
+    background: black;
+  }
+  nav .menu-btn i{
+    color: #F3A20D;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  
+  .navimg i {
+    visibility: hidden;
+    color: #F3A20D;
+  }
+  @media (max-width: 1017px) {
+    nav .menu-btn i{
+      display: block;
+      color: white;
+    }
+    nav {
+      flex-direction: row-reverse;
+      padding: 0 3vw;
+    }
+    nav ul{
+      position: fixed;
+      top: 9vh;
+      left: -100%;
+      background: #F3A20D;
+      height: 100vh;
+      width: 100%;
+      text-align: left;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      position: relative;
+      top: 2vh;
+      width: 90%;
+      left: 4%;
+      height: 5vh;
+      padding: 5vh !important;
+      margin-bottom: 5vh;
+      text-align: center;
+      border-radius: 0.3rem;
+    }
+    nav ul li:last-child {
+        background: linear-gradient(#F3A20D, #F3A20D);
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      background-color:transparent ;
+      display: block;
+      font-size: 1rem;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+  
+    nav ul li:hover a{
+      color: #77b7f3;
+      background-color: transparent;
+    }
+  
+    .call-link {
+      background: transparent !important;
+      color:#fffdfd !important;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      margin-left: -100%;
+      width: 100%;
+      display: block;
+    }
+    #click:checked ~ .call-link{
+      margin-left: 0px;
+    }
+  }
 
-      </main>
-    
-      <footer>
-        <div class="footer-toplinks">
-            <div class="footer-sectionlinks">
-                <b><u>Get in touch</u></b> <!-- THIS NEEDS TO HAVE A STYLE= TO FORCE CAPITAIZATION -->
-                <a href="mailto:dylanbikowsky@gmail.com">Email Us</a>
-                <a href="tel:3152691630" target="_blank">Call Us</a>
-            </div>
-        </div>
+  
 
-        <div class="footer-bottomlinks">
-            <div class="footer-profile">
-                <a href="index.html">
-                    Bikowsky Excavation LLC
-                </a>
-                <br>
-                <p> Copyright © 2024 Bikowsky Excavation LLC - All Rights Reserved. </p>
-            </div>
-            <div class="footer-sociallinks">
-                <a href="https://www.facebook.com/profile.php?id=100090828747163&mibextid=LQQJ4d" target="_blank"> <i class="fab fa-facebook"></i> </a>
-            </div>
-        </div>
-     </footer>
 
-     <!-- SCRIPTS -->
-     <script src="assets/js/main.js"></script>
+/* Footer */
+  footer {
+    position: relative;
+    background: #0e0e0e;
+    padding: 2rem 3rem;
+    border-radius: 0rem;
+  }
+  .footer-toplinks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    grid-template-rows: auto;
+    margin-bottom: 1.5rem;
+  }
+  .footer-sectionlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .footer-sectionlinks b {
+    color: #F3A20D;
+  }
+  .footer-sectionlinks a {
+    text-decoration: none;
+    color: #e7e7e7;
+  }
+  .footer-sectionlinks a:hover {
+    text-decoration: underline;
+  }
+  .footer-bottomlinks {
+    margin-top: 5rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem 0;
+  }
+  .footer-bottomlinks .footer-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-bottomlinks img {
+    height: 5rem;
+  }
+  .footer-bottomlinks .footer-sociallinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer-bottomlinks .footer-sociallinks i {
+    font-size: 2rem;
+    color: #F3A20D;
+  }
+  @media screen and (max-width: 450px) {
+    .footer-sectionlinks a {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .footer-bottomlinks {
+      justify-content: center;
+      gap: 3rem 2rem;
+    }
+    .footer-bottomlinks .footer-sociallinks {
+      width: fit-content;
+      margin: auto;
+    }
+  }
+  .footer-profile a {
+    font-family: 'bebas neue';
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
 
-</body>
-</html>
+  /* Header/Cover Photo */
+  header {
+    width: 100%;
+    height: 85vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1194008565355139204/1230933920984600767/facebook_1713533477548_7187080319015694192.jpg?ex=66351f8c&is=6622aa8c&hm=4b04c9b03f97412d185753394d3496bfa21bfc9ad0066f9d97f18aaacee81d32&);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* animation: scroll 350s linear infinite; */
+    margin: 0;
+  }
+  .header-content {
+    text-align: center;
+    color: white;
+  }
+  header h1 {
+    font-size: 4rem;
+    font-family: 'archivo black';
+  }
+  @media screen and (max-width: 500px) {
+    .header-content h1 {
+      font-size: 2.1rem;
+    }
+  }
+  header p {
+    font-size: 1.5rem;
+  }
+  header .links {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  header a {
+    color: white;
+    outline: white solid 2px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  header a:hover {
+    color: #000000;
+    background-color: #fff;
+    outline: #fff solid 2px;
+  }
+  @media screen and (max-width: 700px) {
+    header {
+      height: 100vh;
+      padding: 0 5%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .header-content {
+      width: 100%;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-align: center;
+      width: 100%;
+    }
+    header p {
+      font-size: 1rem !important;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+/* logo above header */
+
+.logo-above-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+/*custom-section*/
+.custom-section {
+  width: 70%;
+  margin: 5vh auto;
+
+  /* background-image: url(https://images.unsplash.com/photo-1569169513673-2cecbfc943a9?dpr=1&h=147&w=126&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8eHUxNFc5ZGMxRG98fGVufDB8fHx8fA%3D%3D); */
+  /* background-size:contain; */
+  /* animation: scroll 350s linear infinite; */
+}
+.bodytext-header {
+  font-size: 3rem;
+  font-family: 'Bebas Neue';
+  color: #F3A20D;
+  letter-spacing: 0.1rem;
+  text-align: center !important;
+}
+.custom-section span {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  font-family: 'Montserrat';
+}
+.custom-section h1 {
+  text-align: left;
+}
+.custom-section .custom-links {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 700px) {
+  .custom-section .custom-links {
+    width: 30rem;
+  }
+}
+.custom-section a {
+  padding: 0.5rem 2rem;
+  min-width: 12rem;
+  text-align: center;
+  border: #F3A20D solid 2px;
+  color: #F3A20D;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: 0.2s;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.custom-section a:hover {
+  background: #F3A20D;
+  color: white;
+}
+.black-button {
+  border: black solid 2px !important; 
+  color: black !important; 
+  text-transform:uppercase !important;
+}
+.black-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+@media screen and (max-width: 521px) {
+  .custom-section h1 {
+    font-size: 2.3rem;
+  }
+  .custom-section {
+    width: 80%;
+  }
+}
+
+/* Image Grid/Recent Work */
+.recent-work-header {
+  font-size: 3rem;
+  color: #F3A20D;
+  margin: auto;
+  width: fit-content;
+}
+.image-grid {
+  width: min(90%, 100rem);
+  margin: 0 auto;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.grid .card__img {
+  border-radius: 15px;
+  box-shadow: -2px 4px 15px #00000042;
+}
+.image-grid img {
+  width: 250px;
+  display: block;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+@media screen and (max-width: 575px) {
+  .image-grid img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.image-grid h2 {
+  font-size: clamp(1rem, 0.875rem + 0.625vw, 1.5rem);
+  line-height: 1.3;
+  font-weight: 700;
+}
+/* 
+.grid {
+  display: grid;
+  grid-template-columns: 25% 30% 15% 25%;
+  gap: 15px;
+  place-content: center;
+  grid-template-rows: 50% 50%;
+  height: 80vh;
+  min-height: 360px;
+  padding: max(2vh, 1.5rem);
+}
+@media screen and (max-width: 690px) {
+  .grid {
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 470px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 35%);
+  }
+}
+.grid .card {
+  border-radius: 15px;
+  box-shadow: -2px 4px 15px #00000042;
+}
+@media screen and (max-width: 470px) {
+  .grid .card {
+    grid-column: span 1;
+  }
+}
+.grid .card:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: span 2;
+}
+@media screen and (max-width: 690px) {
+  .grid .card:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+.grid .card:nth-child(3) {
+  grid-column: span 2;
+}
+@media screen and (max-width: 690px) {
+  .grid .card:nth-child(3) {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+}
+@media screen and (max-width: 690px) {
+  .grid .card:nth-child(6) {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+}
+@media screen and (max-width: 470px) {
+  .grid .card:nth-child(5) {
+    grid-column: span 2;
+  }
+}
+.grid .card p {
+  font-size: clamp(0.9rem, 0.875rem + 0.125vw, 1rem);
+  line-height: 1.4;
+}
+.grid .card img {
+  border-radius: 15px;
+}
+.grid .card .card__img {
+  position: relative;
+  height: 100%;
+}
+.grid .card .card__img .card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  color: #fff;
+  padding: clamp(0.938rem, 5vw, 1.563rem);
+  background: #02022e;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.grid .card .card__img span {
+  position: absolute;
+  top: 25px;
+  left: min(2vmax, 1.563rem);
+  color: #F3A20D;
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 8px 2px 6px;
+  display: flex;
+  box-shadow: 0px 1px 20px #0000002b;
+}
+@media screen and (max-width: 690px) {
+  .grid .card .card__img span {
+    top: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .grid .card .card__img span {
+    top: 15px;
+  }
+}
+.grid .card .card__img span svg {
+  fill: #F3A20D;
+  width: 20px;
+  margin-right: 2px;
+} */
+
+/* Review Section */
+.container {
+  height: 500px;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.title {
+  width: 180px;
+  text-transform: capitalize;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  border-bottom: 5px solid #F3A20D ;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.review {
+  margin: 1rem 0.3rem;
+  height: 300px;
+  width: 400px;
+  padding: 1rem 0;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px  0px #bdbdbe;
+}
+@media screen and (max-width: 480px) {
+  .review {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .review {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .review {
+    max-width: 250px;
+  }
+}
+/* #person-img {
+  position: relative;
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ margin-top: 15px;
+ margin-bottom: 12px;
+ z-index: 2;
+ box-shadow: 5px -5px #F3A20D;
+} */
+#author {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+#star {
+  font-size: 13px;
+  color: gold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#info {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button-container {
+  width: 40px;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+
+}
+
+.prev-btn {
+  background-color: white;
+  border-style: none;
+  color: #5a98ee;
+  font-size: 18px;
+}
+.prev-btn:hover {
+  cursor: pointer;
+  color: #1e78f7;
+
+  
+}
+.next-btn {
+  background-color: white;
+  border-style: none;
+  color: #5a98ee;
+  font-size: 18px;
+}
+.next-btn:hover {
+  cursor: pointer;
+  color: #1e78f7;
+ 
+}
+
+.random-btn {
+ 
+background-color: #e8edf6;
+color: #5a98ee;
+font-size: 12px;
+width: 80px;
+height: 20px;
+border-radius: 5px;
+border: 2px solid #5a98ee;
+
+
+}
+.random-btn:hover {
+  cursor: pointer;
+  color: black;
+  border: 2px solid #1e78f7;
+  background-color: #5a98ee;
+  font-size: 12.5px;
+} 
+#loc {
+  margin-bottom: 1rem;
+}
+.write-a-review {
+  padding: 0.5rem 2rem;
+  min-width: 12rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border: #F3A20D solid 2px;
+  color: #F3A20D;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: 0.2s;
+  font-style: italic;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.write-a-review:hover {
+  background: #F3A20D;
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header2 {
+  margin: 5vh auto;
+  width: 70%;
+}
+.header2-content {
+  text-align: left;
+  color: black;
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans";
+  font-size: 16pt;
+  font-weight: 700;
+}
+.header2-h1 {
+  text-align: center;
+  font-size: 24pt;
+  color: #F3A20D
+}
+.header2-links {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.header2-links a {
+  color: #F3A20D;
+  background-color: black;
+  outline: #F3A20D solid 2px;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  width: fit-content;
+  text-align: center;
+}
+/* .header2-links a:hover {
+  color: #F3A20D;
+  background-color: black;
+  outline: #F3A20D solid 2px;
+} */
+@media screen and (max-width: 700px) {
+  .header2 {
+    height: 100vh;
+  }
+  .header2-content {
+    width: 100%;
+  }
+  .header2 h1 {
+    font-size: 21pt;
+    text-align: center;
+    width: 100%;
+  }
+  .header2 p {
+    font-size: 1rem !important;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.horizontal-flex-container {
+  display: flex;
+  align-items: center;
+}
