@@ -73,7 +73,7 @@ nav{
     flex-wrap: wrap;
     z-index: 2;
   }
-  
+
   .brand {
     display: flex;
     align-items: center;
@@ -553,8 +553,7 @@ nav{
   font-weight: 700;
 }
 
-/* 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: 25% 30% 15% 25%;
   gap: 15px;
@@ -743,6 +742,7 @@ nav{
  z-index: 2;
  box-shadow: 5px -5px #F3A20D;
 } */
+
 #author {
   text-transform: capitalize;
   letter-spacing: 3px;
@@ -889,6 +889,7 @@ border: 2px solid #5a98ee;
   width: fit-content;
   text-align: center;
 }
+
 /* .header2-links a:hover {
   color: #F3A20D;
   background-color: black;
