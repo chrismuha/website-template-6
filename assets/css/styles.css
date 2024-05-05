@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* FIND GOOGLE FONT ALTERNATIVE FOR BOA CONSTRUKTOR. REPLACE THIS LINE WITH THAT IMPORT CODE.*/
 
 /* Default/Primary */
 * {
@@ -31,7 +32,6 @@ main {
 main {
   overflow-x: hidden !important;
 }
-
 
 /* loading screen */
 #preloader {
