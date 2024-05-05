@@ -73,15 +73,18 @@ nav{
     flex-wrap: wrap;
     z-index: 2;
   }
+  
   .brand {
     display: flex;
     align-items: center;
   }
+
   .brand img {
     height: 5rem;
     margin-left: 1rem;
     /* margin-top: -1rem; */
   }
+
   .brand a {
     font-size: 2rem;
     color: white;
@@ -95,11 +98,13 @@ nav{
     background: linear-gradient(#F3A20D, #F3A20D);
     transition: 0.2s all ease-in;
   }
+
   .call-link:hover {
     /* background:linear-gradient(#F3A20D, #F3A20D) ; */
     background-color: #000000;
     /* opacity: 70%; */
   }
+
   @media screen and (max-width: 468px) {
     .brand img {
       height: 3.5rem;
@@ -108,16 +113,19 @@ nav{
       font-size: 1.5rem;
     }
   }
+
   nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
   }
+
   nav ul li{
     margin: 0 5px;
     display: flex;
     align-items: center;
   }
+
   nav ul li a{
     text-align: center;
     color: #ffffff;
@@ -141,6 +149,7 @@ nav{
     cursor: pointer;
     display: none;
   }
+
   input[type="checkbox"]{
     display: none;
   }
@@ -149,15 +158,18 @@ nav{
     visibility: hidden;
     color: #F3A20D;
   }
+
   @media (max-width: 1017px) {
     nav .menu-btn i{
       display: block;
       color: white;
     }
+
     nav {
       flex-direction: row-reverse;
       padding: 0 3vw;
     }
+
     nav ul{
       position: fixed;
       top: 9vh;
@@ -169,9 +181,11 @@ nav{
       display: block;
       transition: all 0.3s ease;
     }
+
     #click:checked ~ ul{
       left: 0;
     }
+
     nav ul li{
       position: relative;
       top: 2vh;
@@ -183,9 +197,11 @@ nav{
       text-align: center;
       border-radius: 0.3rem;
     }
+
     nav ul li:last-child {
         background: linear-gradient(#F3A20D, #F3A20D);
     }
+
     nav ul li a{
       width: 100%;
       margin-left: -100%;
@@ -194,6 +210,7 @@ nav{
       font-size: 1rem;
       transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
+
     #click:checked ~ ul li a{
       margin-left: 0px;
     }
@@ -216,9 +233,6 @@ nav{
     }
   }
 
-  
-
-
 /* Footer */
   footer {
     position: relative;
@@ -226,6 +240,7 @@ nav{
     padding: 2rem 3rem;
     border-radius: 0rem;
   }
+
   .footer-toplinks {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
@@ -233,22 +248,27 @@ nav{
     grid-template-rows: auto;
     margin-bottom: 1.5rem;
   }
+
   .footer-sectionlinks {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
   }
+
   .footer-sectionlinks b {
     color: #F3A20D;
   }
+
   .footer-sectionlinks a {
     text-decoration: none;
     color: #e7e7e7;
   }
+
   .footer-sectionlinks a:hover {
     text-decoration: underline;
   }
+
   .footer-bottomlinks {
     margin-top: 5rem;
     display: flex;
@@ -258,6 +278,7 @@ nav{
     flex-wrap: wrap;
     gap: 3rem 0;
   }
+
   .footer-bottomlinks .footer-profile {
     display: flex;
     flex-direction: column;
@@ -265,23 +286,28 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .footer-bottomlinks img {
     height: 5rem;
   }
+
   .footer-bottomlinks .footer-sociallinks {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
   }
+
   .footer-bottomlinks .footer-sociallinks i {
     font-size: 2rem;
     color: #F3A20D;
   }
+
   @media screen and (max-width: 450px) {
     .footer-sectionlinks a {
       font-size: 0.9rem;
     }
   }
+
   @media screen and (max-width: 800px) {
     .footer-bottomlinks {
       justify-content: center;
@@ -292,6 +318,7 @@ nav{
       margin: auto;
     }
   }
+
   .footer-profile a {
     font-family: 'bebas neue';
     color: white;
@@ -314,22 +341,27 @@ nav{
     /* animation: scroll 350s linear infinite; */
     margin: 0;
   }
+
   .header-content {
     text-align: center;
     color: white;
   }
+
   header h1 {
     font-size: 4rem;
     font-family: 'archivo black';
   }
+
   @media screen and (max-width: 500px) {
     .header-content h1 {
       font-size: 2.1rem;
     }
   }
+
   header p {
     font-size: 1.5rem;
   }
+
   header .links {
     padding: 2rem;
     display: flex;
@@ -337,6 +369,7 @@ nav{
     gap: 1rem;
     justify-content: center;
   }
+
   header a {
     color: white;
     outline: white solid 2px;
@@ -349,11 +382,13 @@ nav{
     font-size: 1rem;
     font-weight: 700;
   }
+
   header a:hover {
     color: #000000;
     background-color: #fff;
     outline: #fff solid 2px;
   }
+
   @media screen and (max-width: 700px) {
     header {
       height: 100vh;
@@ -378,7 +413,6 @@ nav{
   }
 
 /* logo above header */
-
 .logo-above-header {
   display: flex;
   justify-content: center;
@@ -394,6 +428,7 @@ nav{
   /* background-size:contain; */
   /* animation: scroll 350s linear infinite; */
 }
+
 .bodytext-header {
   font-size: 3rem;
   font-family: 'Bebas Neue';
@@ -401,6 +436,7 @@ nav{
   letter-spacing: 0.1rem;
   text-align: center !important;
 }
+
 .custom-section span {
   font-size: 1.2rem;
   line-height: 3rem;
@@ -409,6 +445,7 @@ nav{
 .custom-section h1 {
   text-align: left;
 }
+
 .custom-section .custom-links {
   margin: 2rem auto;
   display: flex;
@@ -417,11 +454,13 @@ nav{
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (min-width: 700px) {
   .custom-section .custom-links {
     width: 30rem;
   }
 }
+
 .custom-section a {
   padding: 0.5rem 2rem;
   min-width: 12rem;
@@ -436,19 +475,23 @@ nav{
   font-size: 1rem;
   font-weight: 700;
 }
+
 .custom-section a:hover {
   background: #F3A20D;
   color: white;
 }
+
 .black-button {
   border: black solid 2px !important; 
   color: black !important; 
   text-transform:uppercase !important;
 }
+
 .black-button:hover {
   background-color: black !important;
   color: white !important;
 }
+
 @media screen and (max-width: 521px) {
   .custom-section h1 {
     font-size: 2.3rem;
@@ -465,6 +508,7 @@ nav{
   margin: auto;
   width: fit-content;
 }
+
 .image-grid {
   width: min(90%, 100rem);
   margin: 0 auto;
@@ -475,16 +519,19 @@ nav{
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
 .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
+
 .grid .card__img {
   border-radius: 15px;
   box-shadow: -2px 4px 15px #00000042;
 }
+
 .image-grid img {
   width: 250px;
   display: block;
@@ -492,6 +539,7 @@ nav{
   object-fit: cover;
   border-radius: 15px;
 }
+
 @media screen and (max-width: 575px) {
   .image-grid img {
     width: 150px;
@@ -504,6 +552,7 @@ nav{
   line-height: 1.3;
   font-weight: 700;
 }
+
 /* 
 .grid {
   display: grid;
@@ -515,67 +564,81 @@ nav{
   min-height: 360px;
   padding: max(2vh, 1.5rem);
 }
+
 @media screen and (max-width: 690px) {
   .grid {
     height: 65vh;
   }
 }
+
 @media screen and (max-width: 470px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 35%);
   }
 }
+
 .grid .card {
   border-radius: 15px;
   box-shadow: -2px 4px 15px #00000042;
 }
+
 @media screen and (max-width: 470px) {
   .grid .card {
     grid-column: span 1;
   }
 }
+
 .grid .card:nth-child(2) {
   grid-column: 2/3;
   grid-row: span 2;
 }
+
 @media screen and (max-width: 690px) {
   .grid .card:nth-child(2) {
     grid-column: span 1;
     grid-row: span 1;
   }
 }
+
 .grid .card:nth-child(3) {
   grid-column: span 2;
 }
+
 @media screen and (max-width: 690px) {
   .grid .card:nth-child(3) {
     grid-column: 2/4;
     grid-row: 1/2;
   }
 }
+
 @media screen and (max-width: 690px) {
   .grid .card:nth-child(6) {
     grid-column: 2/4;
     grid-row: 2/3;
   }
 }
+
 @media screen and (max-width: 470px) {
   .grid .card:nth-child(5) {
     grid-column: span 2;
   }
 }
+
 .grid .card p {
   font-size: clamp(0.9rem, 0.875rem + 0.125vw, 1rem);
   line-height: 1.4;
 }
+
 .grid .card img {
   border-radius: 15px;
 }
+
 .grid .card .card__img {
   position: relative;
   height: 100%;
 }
+
 .grid .card .card__img .card__overlay {
   position: absolute;
   bottom: 0;
@@ -592,6 +655,7 @@ nav{
   justify-content: flex-end;
   flex-direction: column;
 }
+
 .grid .card .card__img span {
   position: absolute;
   top: 25px;
@@ -603,16 +667,19 @@ nav{
   display: flex;
   box-shadow: 0px 1px 20px #0000002b;
 }
+
 @media screen and (max-width: 690px) {
   .grid .card .card__img span {
     top: 20px;
   }
 }
+
 @media screen and (max-width: 470px) {
   .grid .card .card__img span {
     top: 15px;
   }
 }
+
 .grid .card .card__img span svg {
   fill: #F3A20D;
   width: 20px;
@@ -665,6 +732,7 @@ nav{
     max-width: 250px;
   }
 }
+
 /* #person-img {
   position: relative;
  width: 150px;
@@ -679,6 +747,7 @@ nav{
   text-transform: capitalize;
   letter-spacing: 3px;
 }
+
 #star {
   font-size: 13px;
   color: gold;
@@ -700,7 +769,6 @@ nav{
   margin-top: 12px;
   margin-bottom: 10px;
   letter-spacing: 5px;
-
 }
 
 .prev-btn {
@@ -712,9 +780,8 @@ nav{
 .prev-btn:hover {
   cursor: pointer;
   color: #1e78f7;
-
-  
 }
+
 .next-btn {
   background-color: white;
   border-style: none;
@@ -724,11 +791,9 @@ nav{
 .next-btn:hover {
   cursor: pointer;
   color: #1e78f7;
- 
 }
 
 .random-btn {
- 
 background-color: #e8edf6;
 color: #5a98ee;
 font-size: 12px;
@@ -736,9 +801,8 @@ width: 80px;
 height: 20px;
 border-radius: 5px;
 border: 2px solid #5a98ee;
-
-
 }
+
 .random-btn:hover {
   cursor: pointer;
   color: black;
@@ -749,6 +813,7 @@ border: 2px solid #5a98ee;
 #loc {
   margin-bottom: 1rem;
 }
+
 .write-a-review {
   padding: 0.5rem 2rem;
   min-width: 12rem;
@@ -765,10 +830,12 @@ border: 2px solid #5a98ee;
   font-size: 1rem;
   font-weight: 700;
 }
+
 .write-a-review:hover {
   background: #F3A20D;
   color: white;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -779,6 +846,7 @@ border: 2px solid #5a98ee;
   margin: 5vh auto;
   width: 70%;
 }
+
 .header2-content {
   text-align: left;
   color: black;
@@ -789,11 +857,13 @@ border: 2px solid #5a98ee;
   font-size: 16pt;
   font-weight: 700;
 }
+
 .header2-h1 {
   text-align: center;
   font-size: 24pt;
   color: #F3A20D
 }
+
 .header2-links {
   padding: 2rem 0;
   display: flex;
@@ -803,6 +873,7 @@ border: 2px solid #5a98ee;
   justify-content: center;
   align-items: center;
 }
+
 .header2-links a {
   color: #F3A20D;
   background-color: black;
@@ -823,6 +894,7 @@ border: 2px solid #5a98ee;
   background-color: black;
   outline: #F3A20D solid 2px;
 } */
+
 @media screen and (max-width: 700px) {
   .header2 {
     height: 100vh;
