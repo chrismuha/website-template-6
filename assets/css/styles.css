@@ -109,6 +109,19 @@ nav{
     /* opacity: 70%; */
   }
 
+  .email-link {
+    color: #fafafa;
+    background: linear-gradient(#F3A20D, #F3A20D);
+    transition: 0.2s all ease-in;
+  }
+
+  .email-link:hover {
+    /* background:linear-gradient(#F3A20D, #F3A20D) ; */
+    background-color: #000000;
+    /* opacity: 70%; */
+  }
+
+
   @media screen and (max-width: 468px) {
     .brand img {
       height: 3.5rem;
