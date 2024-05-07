@@ -878,7 +878,7 @@ border: 2px solid #5a98ee;
 
 .header2-h1 {
   text-align: center;
-  font-size: 24pt;
+  font-size: 3rem;
   color: #F3A20D
 }
 
@@ -921,8 +921,8 @@ border: 2px solid #5a98ee;
   .header2-content {
     width: 100%;
   }
-  .header2 h1 {
-    font-size: 21pt;
+  .header2-h1 {
+    font-size: 2.3rem;
     text-align: center;
     width: 100%;
   }
