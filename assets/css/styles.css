@@ -154,7 +154,6 @@ nav{
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-    width: 5rem;
   }
   
   nav ul li a:hover{
@@ -370,7 +369,8 @@ nav{
     font-family: 'archivo black';
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 761px),
+  screen and (max-height: 500px) {
     .header-content h1 {
       font-size: 2.1rem;
     }
