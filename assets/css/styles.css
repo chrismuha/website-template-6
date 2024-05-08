@@ -154,6 +154,7 @@ nav{
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
+    width: 5rem;
   }
   
   nav ul li a:hover{
@@ -207,17 +208,13 @@ nav{
     nav ul li{
       position: relative;
       top: 2vh;
-      width: 90%;
-      left: 4%;
+      width: 100%;
+      margin: auto;
       height: 5vh;
-      padding: 5vh !important;
+      padding: 5vh 2vh !important;
       margin-bottom: 5vh;
       text-align: center;
       border-radius: 0.3rem;
-    }
-
-    nav ul li:last-child {
-        background: linear-gradient(#F3A20D, #F3A20D);
     }
 
     nav ul li a{
@@ -225,7 +222,7 @@ nav{
       margin-left: -100%;
       background-color:transparent ;
       display: block;
-      font-size: 1rem;
+      font-size: 1rem !important;
       transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
@@ -238,7 +235,7 @@ nav{
       background-color: transparent;
     }
   
-    .call-link {
+    .call-link, .email-link {
       background: transparent !important;
       color:#fffdfd !important;
       transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -247,9 +244,11 @@ nav{
       display: block;
     }
     
-    #click:checked ~ .call-link{
+    #click:checked ~ .call-link,
+    #click:checked ~ .email-link{
       margin-left: 0px;
     }
+
   }
 
 /* Footer */
