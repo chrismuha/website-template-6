@@ -97,29 +97,6 @@ nav{
     padding: 0 1rem;
   }
 
-  .call-link {
-    color: #fafafa;
-    background: linear-gradient(#F3A20D, #F3A20D);
-    transition: 0.2s all ease-in;
-  }
-
-  .call-link:hover {
-    /* background:linear-gradient(#F3A20D, #F3A20D) ; */
-    background-color: black;
-    /* opacity: 70%; */
-  }
-
-  .email-link {
-    color: #fafafa;
-    background: linear-gradient(#F3A20D, #F3A20D);
-    transition: 0.2s all ease-in;
-  }
-
-  .email-link:hover {
-    /* background:linear-gradient(#F3A20D, #F3A20D) ; */
-    background-color: black;
-    /* opacity: 70%; */
-  }
 
 
   @media screen and (max-width: 468px) {
@@ -233,21 +210,6 @@ nav{
       color: black;
       background-color: transparent;
     }
-  
-    .call-link, .email-link{
-      background: transparent !important;
-      color:#fffdfd !important;
-      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      margin-left: -100%;
-      width: 100%;
-      display: block;
-    }
-
-    #click:checked ~ .call-link,
-    #click:checked ~ .email-link{
-      margin-left: 0px;
-    }
-
   }
 
 /* Footer */
@@ -855,7 +817,6 @@ border: 2px solid #5a98ee;
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  font-size: 0.9rem;
   border: #F3A20D solid 2px;
   color: #F3A20D;
   text-decoration: none;
