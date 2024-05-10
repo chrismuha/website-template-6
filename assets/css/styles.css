@@ -97,8 +97,6 @@ nav{
     padding: 0 1rem;
   }
 
-
-
   @media screen and (max-width: 468px) {
     .brand img {
       height: 3.5rem;
@@ -377,14 +375,17 @@ nav{
       align-items: center;
       justify-content: center;
     }
+    
     .header-content {
       width: 100%;
     }
+    
     header h1 {
       font-size: 3rem;
       text-align: center;
       width: 100%;
     }
+    
     header p {
       font-size: 1rem !important;
       text-align: center;
@@ -483,6 +484,7 @@ nav{
     width: 90%;
   }
 }
+
 @media screen and (max-width: 550px) {
   .custom-section {
     width: 95%;
@@ -712,7 +714,6 @@ nav{
   }
 }
 
-
 /* @media screen and (max-width: 480px) {
   .review {
     width: 350px;
@@ -776,6 +777,7 @@ nav{
   color: #5a98ee;
   font-size: 18px;
 }
+
 .prev-btn:hover {
   cursor: pointer;
   color: #1e78f7;
@@ -787,6 +789,7 @@ nav{
   color: #5a98ee;
   font-size: 18px;
 }
+
 .next-btn:hover {
   cursor: pointer;
   color: #1e78f7;
@@ -808,7 +811,8 @@ border: 2px solid #5a98ee;
   border: 2px solid #1e78f7;
   background-color: #5a98ee;
   font-size: 12.5px;
-} 
+}
+
 #loc {
   margin-bottom: 1rem;
 }
@@ -898,14 +902,17 @@ border: 2px solid #5a98ee;
   .header2 {
     height: 100vh;
   }
+
   .header2-content {
     width: 100%;
   }
+
   .header2-h1 {
     font-size: 2.3rem;
     text-align: center;
     width: 100%;
   }
+
   .header2 p {
     font-size: 1rem !important;
     text-align: center;
