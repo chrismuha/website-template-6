@@ -105,7 +105,7 @@ nav{
 
   .call-link:hover {
     /* background:linear-gradient(#F3A20D, #F3A20D) ; */
-    background-color: #000000;
+    background-color: black;
     /* opacity: 70%; */
   }
 
@@ -117,7 +117,7 @@ nav{
 
   .email-link:hover {
     /* background:linear-gradient(#F3A20D, #F3A20D) ; */
-    background-color: #000000;
+    background-color: black;
     /* opacity: 70%; */
   }
 
@@ -230,11 +230,11 @@ nav{
     }
   
     nav ul li:hover a{
-      color: #77b7f3;
+      color: black;
       background-color: transparent;
     }
   
-    .call-link, .email-link {
+    .call-link, .email-link{
       background: transparent !important;
       color:#fffdfd !important;
       transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -242,7 +242,7 @@ nav{
       width: 100%;
       display: block;
     }
-    
+
     #click:checked ~ .call-link,
     #click:checked ~ .email-link{
       margin-left: 0px;
