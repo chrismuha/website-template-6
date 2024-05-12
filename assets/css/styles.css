@@ -431,6 +431,7 @@ nav{
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  padding: 0 2rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -471,8 +472,8 @@ nav{
 }
 
 @media screen and (max-width: 521px) {
-  .custom-section h1 {
-    font-size: 2.3rem;
+  .custom-section h1, .recent-work-header {
+    font-size: 2.3rem !important;
   }
   .custom-section {
     width: 80%;
@@ -680,23 +681,30 @@ nav{
 
 /* Review Section */
 .container {
-  width: 100%;
   margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
+  padding: 0.5rem;
 }
 
-.title {
-  width: 180px;
+.title h1 {
+  font-size: 3rem;
+  margin: auto;
+  width: fit-content;
   text-transform: capitalize;
   margin-top: 25px;
   margin-bottom: 45px;
   border-bottom: 5px solid #F3A20D ;
   padding-bottom: 10px;
   letter-spacing: 3px;
+}
+@media screen and (max-width: 521px) {
+  .title h1 {
+    font-size: 2.3rem;
+  }
 }
 
 .review {
@@ -759,7 +767,7 @@ nav{
 }
 
 .button-container {
-  width: 10px;
+  width: 20px;
   margin: auto;
   margin-top: 12px;
   margin-bottom: 10px;
@@ -791,13 +799,13 @@ nav{
 }
 
 .random-btn {
-background-color: #e8edf6;
-color: #5a98ee;
-font-size: 12px;
-width: 80px;
-height: 20px;
-border-radius: 5px;
-border: 2px solid #5a98ee;
+  background-color: #e8edf6;
+  color: #5a98ee;
+  font-size: 12px;
+  width: 80px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid #5a98ee;
 }
 
 .random-btn:hover {
@@ -835,12 +843,13 @@ border: 2px solid #5a98ee;
 
 @media screen and (max-width: 750px) {
   .review {
-    width: 90%;
-    height: 300px;
+    width: 80vw;
+    height: 500px;
   }
 
-  .container, #info {
-    font-size: 15px !important;
+  .button-container {
+    width: 10vw;
+    padding: 0.5rem;
   }
 }
 
@@ -905,10 +914,6 @@ border: 2px solid #5a98ee;
 } */
 
 @media screen and (max-width: 700px) {
-  .header2 {
-    height: 100vh;
-  }
-
   .header2-content {
     width: 100%;
   }
