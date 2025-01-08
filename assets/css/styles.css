@@ -139,7 +139,7 @@ nav {
   }
 
   nav .menu-btn i {
-    color: #F3A20D;
+    color: #1e90ff;
     font-size: 2rem;
     cursor: pointer;
     display: none;
@@ -151,7 +151,7 @@ nav {
   
   .navimg i {
     visibility: hidden;
-    color: #F3A20D;
+    color: #1e90ff;
   }
 
   @media (max-width: 1520px) {
@@ -169,7 +169,7 @@ nav {
       position: fixed;
       top: 4.5rem;
       left: -100%;
-      background: #F3A20D;
+      background: #1e90ff;
       height: 100vh;
       width: 100%;
       text-align: left;
@@ -236,7 +236,7 @@ nav {
   }
 
   .footer-sectionlinks b {
-    color: #F3A20D;
+    color: #1e90ff;
   }
 
   .footer-sectionlinks a {
@@ -278,7 +278,7 @@ nav {
 
   .footer-bottomlinks .footer-sociallinks i {
     font-size: 2rem;
-    color: #F3A20D;
+    color: #1e90ff;
   }
 
   @media screen and (max-width: 450px) {
@@ -309,7 +309,7 @@ nav {
   header {
     width: 100%;
     height: 85vh;
-    background-image: url(../pictures/1.jpg);
+    background-image: url();
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -411,7 +411,7 @@ nav {
 .bodytext-header {
   font-size: 3rem;
   font-family: 'Bebas Neue';
-  color: #F3A20D;
+  color: #1e90ff;
   letter-spacing: 0.1rem;
   text-align: center !important;
 }
@@ -446,8 +446,8 @@ nav {
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  border: #F3A20D solid 2px;
-  color: #F3A20D;
+  border: #1e90ff solid 2px;
+  color: #1e90ff;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
@@ -458,7 +458,7 @@ nav {
 }
 
 .custom-section a:not(.header2-links a):hover {
-  background: #F3A20D;
+  background: #1e90ff;
   color: white;
 }
 
@@ -500,7 +500,7 @@ nav {
 /* Image Grid/Recent Work */
 .recent-work-header {
   font-size: 3rem;
-  color: #F3A20D;
+  color: #1e90ff;
   margin: auto;
   width: fit-content;
 }
@@ -699,7 +699,7 @@ nav {
   text-transform: capitalize;
   margin-top: 25px;
   margin-bottom: 45px;
-  border-bottom: 5px solid #F3A20D ;
+  border-bottom: 5px solid #1e90ff ;
   padding-bottom: 10px;
   letter-spacing: 3px;
 }
@@ -827,8 +827,8 @@ nav {
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  border: #F3A20D solid 2px;
-  color: #F3A20D;
+  border: #1e90ff solid 2px;
+  color: #1e90ff;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
@@ -840,7 +840,7 @@ nav {
 }
 
 .write-a-review:hover {
-  background: #F3A20D;
+  background: #1e90ff;
   color: white;
 }
 
@@ -881,7 +881,7 @@ nav {
 .header2-h1 {
   text-align: center;
   font-size: 3rem;
-  color: #F3A20D
+  color: #1e90ff
 }
 
 .header2-links {
@@ -895,9 +895,9 @@ nav {
 }
 
 .header2-links a {
-  color: #F3A20D;
+  color: #1e90ff;
   background-color: black;
-  outline: #F3A20D solid 2px;
+  outline: #1e90ff solid 2px;
   padding: 0.5rem 2rem;
   text-decoration: none;
   border-radius: 0.2rem;

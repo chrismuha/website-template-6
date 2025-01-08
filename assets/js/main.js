@@ -9,27 +9,18 @@ window.addEventListener("load", function () {
 const reviews = [
     {
           id: 0,
-          name: 'Sam Matteson',
+          name: '',
           star: '★★★★★',
           loc: 'from Google Reviews',
-        //   img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
-          text: 'Dylan and Phil have dug multiple electrical trenches for me. Being a self employed contractor I am always looking to team up with other top of the line contractors. These guys will do you right. I wouldn’t hesitate to call them and will continue to use them for my projects.',
+        // img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
+          text: '',
   
       },  
-      {
-        id: 1,
-        name: 'Kristy Bikowsky',
-        star: '★★★★★',
-        loc: 'from Google Reviews',
-        // img: 'https://lh3.googleusercontent.com/a-/ALV-UjV70LyuEStvLQ7z3oSwyJpmI1VUDK0eDxnVgCXG3jgJfva2EQs=s120-c-rp-mo-br100',
-        text: 'Excellent work, honest people, hard workers gets the job done!',
-
-        },  
   ];
   
   // select items
   
-//   const img = document.getElementById('person-img');
+// const img = document.getElementById('person-img');
   const author = document.getElementById('author');
   const star = document.getElementById('star');
   const info = document.getElementById('info');
