@@ -316,7 +316,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    /* animation: scroll 350s linear infinite; */
     margin: 0;
   }
 
@@ -400,7 +399,7 @@ nav {
   margin-bottom: 5vh;
 }
 
-/*custom-section*/
+/* custom section 1 */
 .custom-section {
   width: 70%;
   margin: 5vh auto;
