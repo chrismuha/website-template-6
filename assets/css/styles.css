@@ -127,7 +127,6 @@ nav {
     padding: 0.7rem 1rem;
     border-radius: 5px;
     letter-spacing: 1px;
-    transition: all 0.3s ease;
   }
   
   nav ul li a:hover {
@@ -171,7 +170,6 @@ nav {
       width: 100%;
       text-align: left;
       display: block;
-      transition: all 0.3s ease;
     }
 
     #click:checked ~ ul {
@@ -196,7 +194,6 @@ nav {
       background-color:transparent ;
       display: block;
       font-size: 1rem !important;
-      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     #click:checked ~ ul li a {
@@ -324,7 +321,7 @@ nav {
   }
 
   header h1 {
-    font-size: 4rem;
+    font-size: 48pt;
     font-family: 'archivo black';
   }
 
@@ -353,7 +350,6 @@ nav {
     padding: 0.5rem 2rem;
     text-decoration: none;
     border-radius: 0.2rem;
-    transition: 0.2s;
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 1rem;
@@ -447,7 +443,6 @@ nav {
   color: #1e90ff;
   text-decoration: none;
   border-radius: 0.3rem;
-  transition: 0.2s;
   font-family: 'Montserrat';
   text-transform: uppercase;
   font-size: 1rem;
@@ -828,7 +823,6 @@ nav {
   color: #1e90ff;
   text-decoration: none;
   border-radius: 0.3rem;
-  transition: 0.2s;
   font-style: italic;
   font-family: 'Montserrat';
   text-transform: uppercase;
@@ -898,7 +892,6 @@ nav {
   padding: 0.5rem 2rem;
   text-decoration: none;
   border-radius: 0.2rem;
-  transition: 0.2s;
   font-family: 'Montserrat';
   text-transform: uppercase;
   font-size: 1rem;
