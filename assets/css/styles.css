@@ -63,6 +63,13 @@ main {
   }
 }
 
+/* Navbar */
+.navbar {
+  background-color: #0d98ba /*Blue-Green*/;
+  position: relative;
+
+}
+
 /* Navbar/Menu */
 nav {
     position: absolute;
