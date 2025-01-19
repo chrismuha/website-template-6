@@ -98,6 +98,17 @@
     <!-- SCRIPTS -->
     <script src="assets/js/main.js"></script>
 
+    <script>
+        const menuCheckbox = document.getElementById('click');
+        menuCheckbox.addEventListener('change', () => {
+            if (menuCheckbox.checked) {
+                document.body.classList.add('menu-open');
+            } else {
+                document.body.classList.remove('menu-open');
+            }
+        });
+    </script>
+
 </body>
 
 </html>
