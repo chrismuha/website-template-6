@@ -942,3 +942,7 @@ header a:hover {
   display: flex;
   align-items: center;
 }
+
+.menu-open .navbar {
+  position: fixed;
+}
